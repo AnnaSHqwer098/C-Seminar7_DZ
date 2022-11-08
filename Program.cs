@@ -79,7 +79,7 @@ double[,] GetArrayDouble (int m, int n, int minValue, int maxValue){
 void PrintArrayDouble (double[,] Array){
     for (int i = 0; i < Array.GetLength(0); i++){
         for (int j = 0; j < Array.GetLength(1); j++){
-            Console.Write($"{Array[i,j]:f1} ");
+            Console.Write($"{Array[i,j]:f1}  |  ");
         }
         Console.WriteLine();
     }
